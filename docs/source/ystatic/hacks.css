@@ -82,3 +82,7 @@
 .kr {
   font-family: NotoSansCJKjp-Regular;
 }
+
+.highlight pre {
+    line-height: 1.5 !important
+}

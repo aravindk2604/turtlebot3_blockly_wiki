@@ -4,6 +4,7 @@
 
    about
    softwareSetup
+   blockCreation
    license
    faq
    contact

@@ -20,9 +20,13 @@ Open terminal and enter the following instructions to install and develop blockl
     $ mkdir -p ~/blockly_ws/src
     $ cd ~/blockly_ws/src
     $ git clone https://github.com/dabit-industries/turtlebot3_blockly
-    $ cd robot_blockly/frontend/
-    $ git clone https://github.com/erlerobot/ace-builds.git
-    $ git clone https://github.com/dabit-industries/blockly.git
+    $ cd turtlebot3_blockly/frontend/
+    $ git submodule add https://github.com/dabit-industries/ace-builds.git
+    $ git submodule init
+    $ git submodule update
+    $ git submodule add https://github.com/dabit-industries/blockly.git
+    $ git submodule init
+    $ git submodule update
     $ cd ~/blockly_ws/
     $ catkin_make_isolated -j2 --pkg turtlebot3_blockly --install
 

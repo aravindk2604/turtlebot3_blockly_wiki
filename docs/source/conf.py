@@ -19,7 +19,7 @@
 # import os
 # import sys
 # sys.path.insert(0, os.path.abspath('.'))
-import sphinx_rtd_theme
+#import sphinx_rtd_theme
 
 # -- General configuration ------------------------------------------------
 
@@ -91,6 +91,7 @@ rst_epilog = """
 # a list of builtin themes.
 #
 html_theme = 'sphinx_rtd_theme'
+html_theme_path = ["_themes"]
 
 # Theme options are theme-specific and customize the look and feel of a theme
 # further.  For a list of options available for each theme, see the
@@ -104,8 +105,8 @@ html_logo = 'ystatic/turtlebot3_burger_waffle.jpeg'
 # relative to this directory. They are copied after the builtin static files,
 # so a file named "default.css" will overwrite the builtin "default.css".
 
-#html_static_path = ['ystatic']
-html_theme_path = [sphinx_rtd_theme.get_html_theme_path()] # aravind included 
+html_static_path = ['ystatic']
+#html_theme_path = [sphinx_rtd_theme.get_html_theme_path()] # aravind included 
 # this for the sphinx_rtd_theme  
 # Custom sidebar templates, must be a dictionary that maps document names
 # to template names.
@@ -129,6 +130,9 @@ html_theme_options = {
     'navigation_depth': 3,
 }
 
+html_context = {
+    'css_files': ['_static/hacks.css'],
+}
 
 # -- Options for HTMLHelp output ------------------------------------------
 
@@ -187,4 +191,5 @@ texinfo_documents = [
 ]
 
 
-
+def setup(app):
+    app.add_stylesheet("hacks.css")
