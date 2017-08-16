@@ -10,22 +10,71 @@ This guide is adapted from Erle Robotics documentation on Block Creation and we 
 Understanding the file structure
 ********************************
 
-First let's get into the **blockly/** directory
+Code changes or development typically happens inside the **blockly_ws/src/** folder.
+
+There are four different files one should edit to create a new block.
+
+* turtlebot3_blockly/frontend/blockly/generators/python/scripts/turtlebot3/example.py
+* turtlebot3_blockly/frontend/blockly/generators/python/customName.js
+* turtlebot3_blockly/frontend/blockly/blocks/customName.js
+* turtlebot3_blockly/frontend/pages/blockly.html
+
+.. NOTE::
+  The filenames with the ``.js`` extension must be the same.
+
+Let's take a look at the **blockly/** directory
 ::
 
     $ cd turtlebot3_blockly/frontend/blockly/
 
 .. NOTE::
-  ``blockly`` was one of the submodules we cloned during the software setup.
+  ``blockly`` was one of the submodules that we cloned during the software setup.
 
 The directories **blocks/** and **generators/** contain a few files that we must edit.
-We can start with the python script that is the backend of the blocks. Let's look into the **generators/python/scripts/turtlebot3/**  directory.
+Each block that you see on the Blockly web interface has its own python script that provides the block's functionality. 
+
+The Python script
+~~~~~~~~~~~~~~~~~
+
+Let's look into the **generators/python/scripts/turtlebot3/** directory.
 ::
 
     $ cd generators/python/scripts/turtlebot3/
 
-Each block that you see on the Blockly web interface has its own python script that provides the block's functionality. This directory should contain a few python scripts already. We'll go over the ``move_forward.py`` script.
+This directory should contain a few python scripts already. 
+
+.. image:: ystatic/mv_fwd.png
+
+**Move Forward** is a custom block that moves the turtlebot3 forward in three speed modes - SLOW, NORMAL and FAST. A python script called ``move_forward.py`` shown below is the backend code for this block.
 
 .. literalinclude:: pyfiles/move_forward.py
     :linenos:
     :language: python
+
+The Javascript (Block functionality)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+The Blockly web interface needs a javascript file that can link the python script of our custom block and to describe the fields of the block. For instance, SLOW, NORMAL and FAST are one of the fields of a block. 
+::
+
+    $ cd ~/turtlebot3_blockly/frontend/blockly/generators/python/dabit-turtlebot3.js
+
+Once the ``dabit-turtlebot3.js`` file opens, look for the particular code section written to link the **move_forward** block. It should look something similar to this image below.
+
+.. image:: ystatic/js_code.png
+
+The Javascript (Look and feel of the block)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+In addition to the previous ``dabit-turtlebot3.js`` file there is one more with the same name inside the **blocks/** directory. Here we describe the look and feel of the block along with few other features - for instance, whether the block connects to any previous or future block(s). 
+::
+
+    $ cd ~/turtlebot3_blockly/frontend/blockly/blocks/dabit-turtlebot3.js
+
+.. image:: ystatic/js_screenshot.png
+
+The HTML
+~~~~~~~~
+
+We should update the ``blockly.html`` file to later use our custom block in the Blockly web interface.
+
