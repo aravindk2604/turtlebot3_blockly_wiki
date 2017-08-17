@@ -5,6 +5,7 @@
    about
    softwareSetup
    blockCreation
+   specificBlock
    license
    faq
    contact

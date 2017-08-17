@@ -1,7 +1,7 @@
 .. _chapter_blockCreation:
 
-Block Creation
-==============
+Block Creation - Overview
+=========================
 
 By now you have an idea that ``blocks`` are the fundamental elements in this drag and drop Blockly sofware. We will discuss how to create new blocks and/or to edit the existing ones.
 
@@ -12,12 +12,14 @@ Understanding the file structure
 
 Code changes or development typically happens inside the **blockly_ws/src/** folder.
 
-There are four different files one should edit to create a new block.
+There are four different files one should edit to create a new block. 
 
 * turtlebot3_blockly/frontend/blockly/generators/python/scripts/turtlebot3/example.py
 * turtlebot3_blockly/frontend/blockly/generators/python/customName.js
 * turtlebot3_blockly/frontend/blockly/blocks/customName.js
 * turtlebot3_blockly/frontend/pages/blockly.html
+
+A detailed description of the contents of these four files, in a particular order will help in creating or editing a block.
 
 .. NOTE::
   The filenames with the ``.js`` extension must be the same.
@@ -76,5 +78,10 @@ In addition to the previous ``dabit-turtlebot3.js`` file there is one more with 
 The HTML
 ~~~~~~~~
 
-We should update the ``blockly.html`` file to later use our custom block in the Blockly web interface.
+Update the ``blockly.html`` file to reflect the changes of our custom block in the Blockly web interface.
 
+The ``<category>`` tag contains the block details and below is an image that shows the contents of it.
+
+.. image:: ystatic/blocklyHTML.png 
+
+Now that you have an idea of what files to edit, let's look at the specifics of a block creation in the next page.
