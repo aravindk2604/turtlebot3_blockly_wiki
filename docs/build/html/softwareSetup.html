@@ -40,7 +40,7 @@
               href="genindex.html"/>
         <link rel="search" title="Search" href="search.html"/>
     <link rel="top" title="dabitBlockly 0.0.1 documentation" href="index.html"/>
-        <link rel="next" title="Block Creation" href="blockCreation.html"/>
+        <link rel="next" title="Block Creation - Overview" href="blockCreation.html"/>
         <link rel="prev" title="About" href="about.html"/> 
 
   
@@ -96,14 +96,25 @@
 <li class="toctree-l1 current"><a class="current reference internal" href="#">Software Setup</a><ul>
 <li class="toctree-l2"><a class="reference internal" href="#installation">Installation</a><ul>
 <li class="toctree-l3"><a class="reference internal" href="#linux">Linux</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#or">or</a></li>
 </ul>
 </li>
 <li class="toctree-l2"><a class="reference internal" href="#launch">Launch</a></li>
 </ul>
 </li>
-<li class="toctree-l1"><a class="reference internal" href="blockCreation.html">Block Creation</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="blockCreation.html#understanding-the-file-structure">Understanding the file structure</a></li>
+<li class="toctree-l1"><a class="reference internal" href="blockCreation.html">Block Creation - Overview</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="blockCreation.html#understanding-the-file-structure">Understanding the file structure</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="blockCreation.html#the-python-script">The Python script</a></li>
+<li class="toctree-l3"><a class="reference internal" href="blockCreation.html#the-javascript-block-functionality">The Javascript (Block functionality)</a></li>
+<li class="toctree-l3"><a class="reference internal" href="blockCreation.html#the-javascript-look-and-feel-of-the-block">The Javascript (Look and feel of the block)</a></li>
+<li class="toctree-l3"><a class="reference internal" href="blockCreation.html#the-html">The HTML</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="specificBlock.html">Specifics of Block Creation</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="specificBlock.html#block-with-an-input">Block with an input</a></li>
+<li class="toctree-l2"><a class="reference internal" href="specificBlock.html#block-with-an-output">Block with an output</a></li>
+<li class="toctree-l2"><a class="reference internal" href="specificBlock.html#block-without-an-input-or-output">Block without an input or output</a></li>
 </ul>
 </li>
 <li class="toctree-l1"><a class="reference internal" href="license.html">License</a></li>
@@ -195,9 +206,7 @@ $ cd ~/blockly_ws/
 $ catkin_make_isolated -j2 --pkg turtlebot3_blockly --install
 </pre></div>
 </div>
-</div>
-<div class="section" id="or">
-<h3>or<a class="headerlink" href="#or" title="Permalink to this headline">¶</a></h3>
+<p><strong>or</strong></p>
 <div class="highlight-default"><div class="highlight"><pre>$ mkdir -p ~/blockly_ws/src
 $ cd ~/blockly_ws/src
 $ git clone --recurse-submodules https://github.com/dabit-industries/turtlebot3_blockly
@@ -230,7 +239,7 @@ $ roslaunch turtlebot3_blockly turtlebot3_blockly.launch
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="blockCreation.html" class="btn btn-neutral float-right" title="Block Creation" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+        <a href="blockCreation.html" class="btn btn-neutral float-right" title="Block Creation - Overview" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
       
       
         <a href="about.html" class="btn btn-neutral" title="About" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>

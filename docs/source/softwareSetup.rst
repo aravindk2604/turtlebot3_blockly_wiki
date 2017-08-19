@@ -30,8 +30,7 @@ Open terminal and enter the following instructions to install and develop blockl
     $ cd ~/blockly_ws/
     $ catkin_make_isolated -j2 --pkg turtlebot3_blockly --install
 
-or
-~~
+**or**
 ::
 
     $ mkdir -p ~/blockly_ws/src
