@@ -12,12 +12,13 @@ Understanding the file structure
 
 Code changes or development typically happens inside the **blockly_ws/src/** folder.
 
-There are four different files one should edit to create a new block. 
+There are four different files one should edit to create a new block.
+:: 
 
-* turtlebot3_blockly/frontend/blockly/generators/python/scripts/turtlebot3/example.py
-* turtlebot3_blockly/frontend/blockly/generators/python/customName.js
-* turtlebot3_blockly/frontend/blockly/blocks/customName.js
-* turtlebot3_blockly/frontend/pages/blockly.html
+    - turtlebot3_blockly/frontend/blockly/generators/python/scripts/turtlebot3/example.py
+    - turtlebot3_blockly/frontend/blockly/generators/python/customName.js
+    - turtlebot3_blockly/frontend/blockly/blocks/customName.js
+    - turtlebot3_blockly/frontend/pages/blockly.html
 
 A detailed description of the contents of these four files, in a particular order will help in creating or editing a block.
 
