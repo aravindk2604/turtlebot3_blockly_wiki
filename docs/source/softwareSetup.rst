@@ -21,10 +21,10 @@ Open terminal and enter the following instructions to install and develop blockl
     $ cd ~/blockly_ws/src
     $ git clone https://github.com/dabit-industries/turtlebot3_blockly
     $ cd turtlebot3_blockly/frontend/
-    $ git submodule add https://github.com/dabit-industries/ace-builds.git
+    $ git submodule add https://github.com/dabit-industries/ace-builds.git ace-builds
     $ git submodule init
     $ git submodule update
-    $ git submodule add https://github.com/dabit-industries/blockly.git
+    $ git submodule add https://github.com/dabit-industries/blockly.git blockly
     $ git submodule init
     $ git submodule update
     $ cd ~/blockly_ws/
@@ -36,7 +36,7 @@ Open terminal and enter the following instructions to install and develop blockl
     $ mkdir -p ~/blockly_ws/src
     $ cd ~/blockly_ws/src
     $ git clone --recurse-submodules https://github.com/dabit-industries/turtlebot3_blockly
-    $ cd ..
+    $ cd ~/blockly_ws
     $ catkin_make_isolated -j2 --pkg turtlebot3_blockly --install
 
 Launch

@@ -17,3 +17,4 @@ Make sure to check them out.
 
 
 .. image:: ystatic/TB3_Burger_thumbnail.jpg
+

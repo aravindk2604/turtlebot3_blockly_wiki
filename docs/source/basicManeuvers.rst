@@ -13,8 +13,13 @@ Moving Forward
 .. image:: ystatic/mv_frwd.png
 
 
+This block makes the turtlebot3 move forward in three preset speed values - **SLOW**, **NORMAL** and **FAST**. Behind this block is a short code in Python language that talks to the robot from this Blockly web interface and commands it to move forward with one of the preset values as programmed by the user. A GIF shows how the block is dragged into the workspace (intuitive) and changing the preset speed values. 
+
+
 .. image:: ystatic/fwd_mv.gif
 
+
+The other basic maneuver blocks of the turtlebot3 are shown below along with the GIFs.
 
 Moving Backward
 ***************
