@@ -86,3 +86,4 @@ The ``<category>`` tag contains the block details and below is an image that sho
 .. image:: ystatic/blocklyHTML.png 
 
 Now that you have an idea of what files to edit, let's look at the specifics of a block creation in the next page.
+
