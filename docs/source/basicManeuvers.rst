@@ -49,5 +49,26 @@ Turning Left
 .. image:: ystatic/left_turn.gif
 
 
+Turn Left/Right in degrees
+**************************
+
+All the above commands move the Turtlebot3 with a preset amount of time. To turn the Turtlebot3 accurately you can use the **Turn Left/Right __ degrees** command. Left turn is counter-clockwise and right turn is clockwise direction. This block uses the data from an Inertial Measurement Unit (IMU) sensor. Hence the accurate turn with 1 degree resolution.
+
+.. image:: ystatic/turn_lr_degrees.png
+
+
+.. image:: ystatic/turn_lr_deg.gif
+
+
+
 Stop
 ****
+
+.. image:: ystatic/stop.png
+
+
+.. image:: ystatic/stop_block.gif
+
+
+
+
