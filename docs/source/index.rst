@@ -1,9 +1,9 @@
 .. image:: ystatic/turtlebot3_burger_waffle.jpeg
 
-Welcome to dabitBlockly's Turtlebot3 documentation
+Welcome to TurtleBot3Blockly documentation
 ==================================================
 
-A detailed documentation on how to use Blockly (free and open source software) with Turtlebot3.
+A detailed documentation on how to use Blockly (free and open source software) with TurtleBot3.
 
 .. include:: contents.rst
 
