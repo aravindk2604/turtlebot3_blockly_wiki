@@ -5,7 +5,7 @@ Block Creation - Overview
 
 By now you have an idea that ``blocks`` are the fundamental elements in this drag and drop Blockly sofware. We will discuss how to create new blocks and/or to edit the existing ones.
 
-This guide is adapted from Erle Robotics documentation on Block Creation and we focus on the block creation pertaining to Turtlebot3's functionalities.
+This guide is adapted from Erle Robotics documentation on Block Creation and we will focus on the block creation pertaining to TurtleBot3's functionalities.
 
 Understanding the file structure
 ********************************
@@ -48,7 +48,7 @@ This directory should contain a few python scripts already.
 
 .. image:: ystatic/mv_fwd.png
 
-**Move Forward** is a custom block that moves the turtlebot3 forward in three speed modes - SLOW, NORMAL and FAST. A python script called ``move_forward.py`` shown below is the backend code for this block.
+**Move Forward** is a custom block that moves the TurtleBot3 forward in one of three speed modes - SLOW, NORMAL and FAST. A python script called ``move_forward.py`` shown below is the backend code for this block.
 
 .. literalinclude:: pyfiles/move_forward.py
     :linenos:

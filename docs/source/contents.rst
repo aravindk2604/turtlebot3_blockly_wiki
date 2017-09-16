@@ -10,3 +10,4 @@
    license
    faq
    contact
+   changelog
