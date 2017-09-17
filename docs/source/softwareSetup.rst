@@ -39,6 +39,9 @@ Open terminal and enter the following instructions to install and develop blockl
     $ cd ~/blockly_ws
     $ catkin_make_isolated -j2 --pkg turtlebot3_blockly --install
 
+.. NOTE::
+  There are submodules in this repo so ensure to update (pull, add. commit, push) them appropriately. 
+
 Launch
 ******
 ::
