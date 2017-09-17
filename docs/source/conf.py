@@ -46,7 +46,7 @@ master_doc = 'index'
 
 # General information about the project.
 project = u'TurtleBot3Blockly'
-copyright = u'2017, Aravind Krishnan'
+copyright = u'2017, Dabit Industries'
 author = u'Aravind Krishnan'
 
 # The version info for the project you're documenting, acts as replacement for
