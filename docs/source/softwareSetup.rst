@@ -3,7 +3,7 @@
 Software Setup
 ==============
 
-This software setup is for the advanced users who would like to create their custom blocks to either add new funtionalities or modify the existing ones.
+This section on software setup is intended for advanced users who would like to create custom blocks to either add new funtionalities or modify the existing ones.
 
 The following steps were adapted from the instructions provided by `Erle Robotics <http://erlerobotics.com/blog/>`_.
 
@@ -50,4 +50,4 @@ Launch
     $ roslaunch turtlebot3_blockly turtlebot3_blockly.launch
 
 .. NOTE::
-  To launch the web interface of blockly, you don't necessarily have to start ``roscore`` but you should if you plan to connect Turtlebot3 and test it during development.
+  To launch the web interface of blockly, you don't necessarily have to start ``roscore`` but you should if you plan to connect TurtleBot3 and test it during development.

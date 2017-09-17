@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 #
-# dabitBlockly documentation build configuration file, created by
+# TurtleBot3Blockly documentation build configuration file, created by
 # sphinx-quickstart on Fri Aug 11 19:18:12 2017.
 #
 # This file is execfile()d with the current directory set to its
@@ -45,7 +45,7 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = u'dabitBlockly'
+project = u'TurtleBot3Blockly'
 copyright = u'2017, Aravind Krishnan'
 author = u'Aravind Krishnan'
 
@@ -137,7 +137,7 @@ html_context = {
 # -- Options for HTMLHelp output ------------------------------------------
 
 # Output file base name for HTML help builder.
-htmlhelp_basename = 'dabitBlocklydoc'
+htmlhelp_basename = 'TurtleBot3Blocklydoc'
 
 
 # -- Options for LaTeX output ---------------------------------------------
@@ -164,7 +164,7 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-    (master_doc, 'dabitBlockly.tex', u'dabitBlockly Documentation',
+    (master_doc, 'TurtleBot3Blockly.tex', u'TurtleBot3Blockly Documentation',
      u'Aravind Krishnan', 'manual'),
 ]
 
@@ -174,7 +174,7 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    (master_doc, 'dabitblockly', u'dabitBlockly Documentation',
+    (master_doc, 'TurtleBot3Blockly', u'TurtleBot3Blockly Documentation',
      [author], 1)
 ]
 
@@ -185,8 +185,8 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-    (master_doc, 'dabitBlockly', u'dabitBlockly Documentation',
-     author, 'dabitBlockly', 'One line description of project.',
+    (master_doc, 'TurtleBot3Blockly', u'TurtleBot3Blockly Documentation',
+     author, 'TurtleBot3Blockly', 'One line description of project.',
      'Miscellaneous'),
 ]
 
