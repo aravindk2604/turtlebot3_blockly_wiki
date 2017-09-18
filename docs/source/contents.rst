@@ -3,11 +3,13 @@
    :caption: Contents:
 
    about
-   basicManeuvers
    softwareSetup
+   launchBlockly
+   basicManeuvers
    blockCreation
    specificBlock
    license
    faq
    contact
    changelog
+   

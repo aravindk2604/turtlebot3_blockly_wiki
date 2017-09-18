@@ -40,14 +40,5 @@ Open terminal and enter the following instructions to install and develop blockl
     $ catkin_make_isolated -j2 --pkg turtlebot3_blockly --install
 
 .. NOTE::
-  There are submodules in this repo so ensure to update (pull, add. commit, push) them appropriately. 
-
-Launch
-******
-::
-
-    $ source ~/blockly_ws/devel_isolated/setup.bash
-    $ roslaunch turtlebot3_blockly turtlebot3_blockly.launch
-
-.. NOTE::
-  To launch the web interface of blockly, you don't necessarily have to start ``roscore`` but you should if you plan to connect TurtleBot3 and test it during development.
+  There are submodules in this repo so ensure to update (pull, add. commit, push) them appropriately.
+  

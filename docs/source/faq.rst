@@ -9,11 +9,12 @@ Frequently Asked Questions
 You can find more detailed information about the TurtleBot3 in the following link:
 `<http://turtlebot3.robotis.com/en/latest/introduction.html>`_
 
-2. Where can I pre-order the TurtleBot3 (Waffle or Burger) from?
+2. Where can I order the TurtleBot3 (Waffle or Burger) from?
 ****************************************************************
 
-You can preorder them at our online shopping website `<https://dabit.industries/collections/turtlebot-3>`_
+You can order them at our online shopping website `<https://dabit.industries/collections/turtlebot-3>`_
 
 3. What changed in the documentation recently?
 **********************************************
 changelog.rst
+

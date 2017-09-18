@@ -13,7 +13,7 @@ Moving Forward
 .. image:: ystatic/mv_frwd.png
 
 
-This block makes the TurtleBot3 move forward in three preset speed values - **SLOW**, **NORMAL** and **FAST**. Behind this block there is a short piece of code in `Python <https://www.python.org/>`_ that talks to the robot from the Blockly web interface and commands it to move forward with one of the preset values as programmed by the user. The figure below shows how the block is dragged into the workspace and the preset speed values are changed. 
+This block makes the TurtleBot3 move forward in three preset speed values - **SLOW**, **NORMAL** and **FAST** for a desired amount of time in seconds. Behind this block there is a short piece of code in `Python <https://www.python.org/>`_ that talks to the robot from the Blockly web interface and commands it to move forward with one of the preset values as programmed by the user. The figure below shows how the block is dragged into the workspace. The time and speed values are then changed. 
 
 
 .. image:: ystatic/fwd_mv.gif
@@ -52,7 +52,7 @@ Turning Left
 Turn Left/Right in degrees
 **************************
 
-All the above commands move the TurtleBot3 for a preset amount of time. To turn the TurtleBot3 a specific amount you can use the **Turn Left/Right __ degrees** command. Left turn is counter-clockwise and right turn is clockwise direction. This block uses the data from an Inertial Measurement Unit (IMU) sensor.
+All the commands shown above move the TurtleBot3 for a desired amount of time. To turn the TurtleBot3 a specific amount (degree) you can use the **Turn Left/Right __ degrees** command. Left turn is counter-clockwise and right turn is clockwise direction. This block uses the data from an Inertial Measurement Unit (IMU) sensor.
 
 .. image:: ystatic/turn_lr_degrees.png
 
@@ -68,7 +68,4 @@ Stop
 
 
 .. image:: ystatic/stop_block.gif
-
-
-
 
