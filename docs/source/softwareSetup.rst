@@ -3,7 +3,8 @@
 Software Setup
 ==============
 
-This section on software setup is intended for advanced users who would like to create custom blocks to either add new funtionalities or modify the existing ones.
+To use a TurtleBot3 with Blockly some software packages must be installed. 
+This section on software setup is also necessary for those who would like to create custom blocks to either add new funtionalities or modify the existing ones.
 
 The following steps were adapted from the instructions provided by `Erle Robotics <http://erlerobotics.com/blog/>`_.
 
@@ -14,7 +15,10 @@ Installation
 Linux
 ~~~~~
 
-Open terminal and enter the following instructions to install and develop blockly.
+.. NOTE::
+  TurtleBot3s are tested on ``Ubuntu 16.04`` and ``ROS Kinetic Kame``. So, these are two prerequisites to setup Blockly and work on a TurtleBot3.
+
+Open terminal and enter the following instructions to install and develop Blockly.
 ::
 
     $ mkdir -p ~/blockly_ws/src

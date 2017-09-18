@@ -10,19 +10,22 @@ We will help you understand the required concepts necessary to work with Blockly
 
 You can order the TurtleBot3 `here <https://dabit.industries/collections/turtlebot-3>`_.
 
-TurtleBot3 is available in two variants - Waffle and Burger.
+TurtleBot3 is available in two variants: 
+
+- Waffle 
+- Burger
+
 Waffle comes with an Intel :sup:`®` RealSense :sup:`TM` camera for 3D perception and the Burger doesn't. All other sensors are available in both models. The Burger is a stacked up model of the TurtleBot3 whereas  Waffle has a wider base (perhaps intentionally named after the way they look).
 
 `Waffle <https://dabit.industries/products/turtlebot-3-waffle>`_ 
 ****************************************************************
 
-.. image:: ystatic/TB3_Waffle_thumbnail.jpg
+.. image:: ystatic/turtlebot3_main_components_waffle.png
 
 
 `Burger <https://dabit.industries/products/turtlebot-3-burger>`_ 
 *****************************************************************
 
-.. image:: ystatic/TB3_Burger_thumbnail.jpg
-
+.. image:: ystatic/turtlebot3_main_components_burger.png
 
 

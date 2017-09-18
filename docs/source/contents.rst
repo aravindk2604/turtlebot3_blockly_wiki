@@ -6,6 +6,7 @@
    softwareSetup
    launchBlockly
    basicManeuvers
+   simpleCode
    blockCreation
    specificBlock
    license
