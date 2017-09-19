@@ -3,10 +3,23 @@
 Software Setup
 ==============
 
-To use a TurtleBot3 with Blockly some software packages must be installed. 
+To program a TurtleBot3 with Blockly some software packages must be installed. 
 This section on software setup is also necessary for those who would like to create custom blocks to either add new funtionalities or modify the existing ones.
 
-The following steps were adapted from the instructions provided by `Erle Robotics <http://erlerobotics.com/blog/>`_.
+TurtleBot3 + Remote PC + Blockly
+**********************************
+
+Before we begin the software setup let's understand, on a high level, how the three things
+
+- TurtleBot3
+- Desktop PC/Laptop
+- Blockly web interface
+
+are connected. A Desktop PC or Laptop a.k.a Remote PC should have ``Ubuntu 16.04`` and ``ROS Kinetic Kame`` installed. Remote PC will run ROS and be the ROS_MASTER. TurtleBot3 runs a custom Linux version called ``Ubuntu Mate`` and will need its own `setup <http://turtlebot3.robotis.com/en/latest/pc_software.html>`_. Once TurtleBot3 is up and running ROS, it should connect to the Remote PC and recognize it as the ``ROS_MASTER``. 
+
+Now that the Remote PC and TurtleBot3 are connected, you need to setup Blockly software package and launch it. This way, using ROS, Blockly can send commands to TurtleBot3.
+
+The steps below will help you install and launch Blockly on the Remote PC. They are adapted from the instructions provided by `Erle Robotics <http://erlerobotics.com/blog/>`_.
 
 
 Installation
@@ -16,7 +29,7 @@ Linux
 ~~~~~
 
 .. NOTE::
-  TurtleBot3s are tested on ``Ubuntu 16.04`` and ``ROS Kinetic Kame``. So, these are two prerequisites to setup Blockly and work on a TurtleBot3.
+  TurtleBot3s are tested on ``Ubuntu 16.04`` and ``ROS Kinetic Kame``. So, these are two prerequisites to setup Blockly and work with a TurtleBot3.
 
 Open terminal and enter the following instructions to install and develop Blockly.
 ::
@@ -43,6 +56,3 @@ Open terminal and enter the following instructions to install and develop Blockl
     $ cd ~/blockly_ws
     $ catkin_make_isolated -j2 --pkg turtlebot3_blockly --install
 
-.. NOTE::
-  There are submodules in this repo so ensure to update (pull, add. commit, push) them appropriately.
-  
