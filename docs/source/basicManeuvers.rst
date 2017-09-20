@@ -69,3 +69,5 @@ Stop
 
 .. image:: ystatic/stop_block.gif
 
+
+You will find out how to load the program onto the TurtleBot3 and make it move, in the next page.

@@ -38,7 +38,7 @@ Launch the program
 ******************
 
 After writing the program you should launch it to make the TurtleBot3 move.
-Click once on the ``Launch`` icon on the far left of the Blockly web interface and you should see the TurtleBot3 performing the tasks consecutively.
+Click once on the ``Launch`` icon on the far left of the Blockly web interface and you should see TurtleBot3 perform the tasks consecutively.
 
 
 .. image:: ystatic/launchCode.png

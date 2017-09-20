@@ -15,7 +15,7 @@ TurtleBot3 is available in two variants:
 - Waffle 
 - Burger
 
-Waffle comes with an Intel :sup:`®` RealSense :sup:`TM` camera for 3D perception and the Burger doesn't. All other sensors are available in both models. The Burger is a stacked up model of the TurtleBot3 whereas  Waffle has a wider base (perhaps intentionally named after the way they look).
+Waffle comes with an Intel :sup:`®` RealSense :sup:`TM` camera for 3D perception and the Burger doesn't. All other sensors remain the same in both models. The Burger is a stacked up model of the TurtleBot3 whereas  Waffle has a wider base (perhaps intentionally named after the way they look).
 
 `Waffle <https://dabit.industries/products/turtlebot-3-waffle>`_ 
 ****************************************************************
