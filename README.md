@@ -1,5 +1,5 @@
 # turtlebot3_blockly_wiki
-Wiki for TurtleBot3 control using Blockly
+Wiki for TurtleBot3 control using Blockly.
 Hosted on readthedocs: https://turtlebot-3-blockly-wiki.readthedocs.io/en/latest/
 ## Build
 ```
