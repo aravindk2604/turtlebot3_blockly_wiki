@@ -80,10 +80,6 @@ todo_include_todos = False
 # Add a small piece of rST text in the prolog/epilog of EVERY file
 # http://www.sphinx-doc.org/en/stable/config.html#confval-rst_prolog
 # rst_prolog = """
-rst_epilog = """
-.. include:: .special.rst
-"""
-# FIXME : even the Markdown files (.md) use it... They should not!
 
 # -- Options for HTML output ----------------------------------------------
 
@@ -91,7 +87,7 @@ rst_epilog = """
 # a list of builtin themes.
 #
 html_theme = 'sphinx_rtd_theme'
-#html_theme_path = ["_themes"]
+html_theme_path = ["_themes",]
 
 # Theme options are theme-specific and customize the look and feel of a theme
 # further.  For a list of options available for each theme, see the
