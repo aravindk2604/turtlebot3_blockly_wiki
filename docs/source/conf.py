@@ -80,7 +80,7 @@ language = None
 
 # List of patterns, relative to source directory, that match files and
 # directories to ignore when looking for source files.
-# This patterns also effect to html_static_path and html_extra_path
+# This patterns also effect to htmlystatic_path and html_extra_path
 exclude_patterns = []
 
 # The name of the Pygments (syntax highlighting) style to use.
@@ -127,15 +127,15 @@ html_static_path = ['ystatic']
 #
 # This is required for the alabaster theme
 # refs: http://alabaster.readthedocs.io/en/latest/installation.html#sidebars
-# html_sidebars = {
-#    '**': [
-#        'about.html',
-#        'navigation.html',
-#        'relations.html',  # needs 'show_related': True theme option to display
-#        'searchbox.html',
-#        'donate.html',
-#    ]
-#}
+html_sidebars = {
+    '**': [
+        'about.html',
+        'navigation.html',
+        'relations.html',  # needs 'show_related': True theme option to display
+        'searchbox.html',
+        'donate.html',
+    ]
+}
 
 # aravind included this for the sphinx_rtd_theme
 html_theme_options = {
@@ -144,9 +144,9 @@ html_theme_options = {
     'navigation_depth': 3,
 }
 
-html_context = {
-    'css_files': ['_static/hacks.css'],
-}
+#html_context = {
+#    'css_files': ['ystatic/hacks.css'],
+#}
 
 # -- Options for HTMLHelp output ------------------------------------------
 
@@ -220,7 +220,7 @@ texinfo_documents = [
 # would mean that specific document would be compressed
 # regardless of the global pdf_compressed setting.
 pdf_documents = [
-        ('contents', u'Kobuki', u'Kobuki', u'Dabit Industries')
+        ('contents', u'TurtleBot3Blockly', u'TurtleBot3Blockly', u'Dabit Industries')
 ]
 
 # A list of folders to search for stylesheets. Example:
@@ -236,7 +236,7 @@ pdf_compressed = True
 
 # A colon-separated list of folders to search for fonts. Example:
 #pdf_font_path = ['/usr/share/fonts', '/usr/share/texmf-dist/fonts/']
-pdf_font_path = ['source/_static/fonts', '/usr/share/fonts']
+pdf_font_path = ['source/ystatic/fonts', '/usr/share/fonts']
 
 # Language to be used for hyphenation support
 pdf_language = "en"
