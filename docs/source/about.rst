@@ -24,7 +24,7 @@ Waffle comes with an Intel :sup:`®` RealSense :sup:`TM` camera for 3D perceptio
 
 
 `Burger <https://dabit.industries/products/turtlebot-3-burger>`_ 
-*****************************************************************
+****************************************************************
 
 .. image:: _static/turtlebot3_main_components_burger.png
 

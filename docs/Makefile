@@ -2,9 +2,9 @@
 #
 
 # You can set these variables from the command line.
-SPHINXOPTS    =
+SPHINXOPTS    = -v
 SPHINXBUILD   = python -msphinx
-SPHINXPROJ    = dabitBlockly
+SPHINXPROJ    = TurtleBot3Blockly
 SOURCEDIR     = source
 BUILDDIR      = build
 
