@@ -2,7 +2,7 @@
 
 About
 =====
-`Dabit Industries <https://dabit.industries>`_ is the official reseller of the latest `ROS <https://www.ros.org>`_ based development platform - TurtleBot3. We want to help our customers to quickly understand how to get started programming the TurtleBot3. The usual requirements are to have a background in Linux, software engineering and some bit of robotics. Now, we want to introduce **Blockly** and make the TurtleBot3 much easier to program while having fun.
+`Dabit Industries <https://dabit.industries>`_ is an official reseller of the latest `ROS <https://www.ros.org>`_ based development platform - TurtleBot3. We want to help our customers to quickly understand how to get started programming the TurtleBot3. The usual requirements are to have a background in Linux, software engineering and some bit of robotics. Now, we want to introduce **Blockly** and make the TurtleBot3 much easier to program while having fun.
 
 `Blockly <https://developers.google.com/blockly/>`_ is a free and open source web interface that can be used to program the TurtleBots. Its intuitive drag-and-drop based programming style welcomes everyone to try out the logic based programming and is easy to get started. 
 
