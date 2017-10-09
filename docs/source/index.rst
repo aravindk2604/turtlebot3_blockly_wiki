@@ -1,7 +1,7 @@
 .. image:: ystatic/turtlebot3_burger_waffle.jpeg
 
 Welcome to TurtleBot3Blockly documentation
-==================================================
+==========================================
 
 A detailed documentation on how to use Blockly (free and open source software) with TurtleBot3.
 

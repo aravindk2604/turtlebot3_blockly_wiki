@@ -9,7 +9,7 @@ if "%SPHINXBUILD%" == "" (
 )
 set SOURCEDIR=source
 set BUILDDIR=build
-set SPHINXPROJ=dabitBlockly
+set SPHINXPROJ=TurtleBot3Blockly
 
 if "%1" == "" goto help
 
