@@ -1,4 +1,4 @@
-.. image:: ystatic/turtlebot3_burger_waffle.jpeg
+.. image:: _static/turtlebot3_burger_waffle.jpeg
 
 Welcome to TurtleBot3Blockly documentation
 ==========================================

@@ -10,13 +10,13 @@ It's quite simple in Blockly. You just need to select the appropriate block from
 Moving Forward
 **************
 
-.. image:: ystatic/mv_frwd.png
+.. image:: _static/mv_frwd.png
 
 
 This block makes the TurtleBot3 move forward in three preset speed values - **SLOW**, **NORMAL** and **FAST** for a desired amount of time in seconds. Behind this block there is a short piece of code in `Python <https://www.python.org/>`_ that talks to the robot from the Blockly web interface and commands it to move forward with one of the preset values as programmed by the user. The figure below shows how the block is dragged into the workspace. The time and speed values are then changed. 
 
 
-.. image:: ystatic/fwd_mv.gif
+.. image:: _static/fwd_mv.gif
 
 
 The other basic maneuver blocks of the TurtleBot3 are shown in the following figures.
@@ -24,29 +24,29 @@ The other basic maneuver blocks of the TurtleBot3 are shown in the following fig
 Moving Backward
 ***************
 
-.. image:: ystatic/mv_bk.png
+.. image:: _static/mv_bk.png
 
 
-.. image:: ystatic/bk_mv.gif
+.. image:: _static/bk_mv.gif
 
 
 
 Turning Right
 *************
 
-.. image:: ystatic/right.png
+.. image:: _static/right.png
 
 
-.. image:: ystatic/right_turn.gif
+.. image:: _static/right_turn.gif
 
 
 Turning Left
 ************
 
-.. image:: ystatic/left.png
+.. image:: _static/left.png
 
 
-.. image:: ystatic/left_turn.gif
+.. image:: _static/left_turn.gif
 
 
 Turn Left/Right in degrees
@@ -54,20 +54,20 @@ Turn Left/Right in degrees
 
 All the commands shown above move the TurtleBot3 for a desired amount of time. To turn the TurtleBot3 a specific amount (degree) you can use the **Turn Left/Right __ degrees** command. Left turn is counter-clockwise and right turn is clockwise direction. This block uses the data from an Inertial Measurement Unit (IMU) sensor.
 
-.. image:: ystatic/turn_lr_degrees.png
+.. image:: _static/turn_lr_degrees.png
 
 
-.. image:: ystatic/turn_lr_deg.gif
+.. image:: _static/turn_lr_deg.gif
 
 
 
 Stop
 ****
 
-.. image:: ystatic/stop.png
+.. image:: _static/stop.png
 
 
-.. image:: ystatic/stop_block.gif
+.. image:: _static/stop_block.gif
 
 
 You will find out how to load the program onto the TurtleBot3 and make it move, in the next page.

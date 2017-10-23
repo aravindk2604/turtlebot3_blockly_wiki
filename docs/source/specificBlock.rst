@@ -64,11 +64,11 @@ Apart from the input of the speed value from the user, we also see the following
 
 These two lines give the block a way to conenct to previous and future blocks.
 
-.. image:: ystatic/mv_fwd.png
+.. image:: _static/mv_fwd.png
 
 For instance
 
-.. image:: ystatic/blockstogether.png
+.. image:: _static/blockstogether.png
 
 The **repeat** block is connected to the **move_forward** block which is again connected to the **Wait** block.
 
@@ -149,7 +149,7 @@ And the other ``.js`` file would have the following code
       }
     }; 
 
-.. image:: ystatic/take_pic.png
+.. image:: _static/take_pic.png
 
 Block without an input or output
 ********************************
@@ -158,7 +158,7 @@ A block that typically configures some backend functionality without the need fo
 
 An example would be to calibrate the IMU (Inertial Measurement Unit)
 
-.. image:: ystatic/imu.png
+.. image:: _static/imu.png
 
 which doesn't necessarily have to take an input or produce an output, but simply calibrate the IMU with values hardcoded during the configuration.
 
